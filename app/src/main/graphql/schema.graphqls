@@ -1,5 +1,6 @@
 type Query {
     animal(id: String!): Animal
+    test: Int
 }
 
 type Mutation {

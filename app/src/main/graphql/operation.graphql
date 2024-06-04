@@ -25,3 +25,7 @@ mutation UpdateAnimalSpecies($input: AnimalInput!) {
         }
     }
 }
+
+query Test {
+    test
+}

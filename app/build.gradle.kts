@@ -61,7 +61,9 @@ android {
 }
 
 apollo {
-    packageName = "com.apollo.generated"
+    service("service") {
+        packageName = "com.apollo.generated"
+    }
 }
 
 dependencies {
